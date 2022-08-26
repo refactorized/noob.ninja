@@ -4,6 +4,7 @@ specifiers:
   '@types/node': 18.7.13
   '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
+  '@vanilla-extract/css': ^1.7.3
   '@vanilla-extract/next-plugin': ^2.0.2
   eslint: 8.22.0
   eslint-config-next: 12.2.5
@@ -14,6 +15,7 @@ specifiers:
   typescript: 4.8.2
 
 dependencies:
+  '@vanilla-extract/css': 1.7.3
   '@vanilla-extract/next-plugin': 2.0.2_next@12.2.5
   next: 12.2.5_biqbaboplfbrettd7655fr4n2y
   prettier: 2.7.1

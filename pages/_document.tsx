@@ -1,10 +1,9 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
-import Head from 'next/head'
+import { Html, Head, Main, NextScript } from 'next/document'
+import { page } from './index/styles.css'
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function Document() {
   return (
-    <>
+    <Html>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -17,9 +16,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="stylesheet"
         />
       </Head>
-      <Component {...pageProps} />
-    </>
+      <body className={page.container}>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
   )
 }
-
-export default MyApp

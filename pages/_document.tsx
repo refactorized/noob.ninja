@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import { page } from './index/styles.css'
+import { page } from '../style/styles.css'
 
 export default function Document() {
   return (

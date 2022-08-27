@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 
       <main>
         <div className={homeHero.container}>
-          <h1 className={homeHero.heading}>noob.ninja</h1>
+          <h1 className={homeHero.heading}>n00b.ninja</h1>
         </div>
       </main>
     </div>

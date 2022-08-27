@@ -21,6 +21,6 @@ export const homeHero = {
   }),
   heading: style({
     fontSize: '10vw',
-    fontFamily: 'Alumni Sans, sans-serif',
+    fontFamily: '"Kelly Slab", cursive',
   }),
 }

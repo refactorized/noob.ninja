@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/cute-font': ^4.5.7
+  '@fontsource/kelly-slab': ^4.5.8
   '@types/node': 18.7.13
   '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
@@ -15,6 +17,8 @@ specifiers:
   typescript: 4.8.2
 
 dependencies:
+  '@fontsource/cute-font': 4.5.7
+  '@fontsource/kelly-slab': 4.5.8
   '@vanilla-extract/css': 1.7.3
   '@vanilla-extract/next-plugin': 2.0.2_next@12.2.5
   next: 12.2.5_biqbaboplfbrettd7655fr4n2y
@@ -66,6 +70,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/cute-font/4.5.7:
+    resolution: {integrity: sha512-DWSmIE/B3hQbdhZv0koL0dU9NHp5qkyF1i7le5OuVz321oLhYCUAdbGTpOEZ81cVcSvyhTtJbo8cEBoaPW0D9w==}
+    dev: false
+
+  /@fontsource/kelly-slab/4.5.8:
+    resolution: {integrity: sha512-wioRYvlN1wT3lK4GUYT6q9GAHztqxv6aupvSnL3cZENZMJwj05aYSywvVJeMhQPCnE/azg/GwkgPwlt5ugFEgQ==}
+    dev: false
 
   /@humanwhocodes/config-array/0.10.4:
     resolution: {integrity: sha512-mXAIHxZT3Vcpg83opl1wGlVZ9xydbfZO3r5YfRSH6Gpp2J/PfdBP0wbDa2sO6/qRbcalpoevVyW6A/fI6LfeMw==}

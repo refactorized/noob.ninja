@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { homeHero, page } from '../../style/styles.css'
+import { homeHero, page } from '@style/styles.css'
 
 const Home: NextPage = () => {
   return (
     <div className={page.container}>
       <Head>
-        <title>noob.ninja</title>
+        <title>n00b.ninja</title>
       </Head>
 
       <main>
